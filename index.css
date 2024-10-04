@@ -13,9 +13,38 @@ html{
     }
 
 .header{
-background-image: linear-gradient(rgba(0,0,0,0.7) rgba(0,0,0,0.7)), 
-                            url('lecture6_img/OmnifoodContents/hero.jpg');
+background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+url('lecture6_img/OmnifoodContents/hero.jpg');
 background-size: cover;
 height: 100vh;
 background-attachment: fixed;
+}
+
+.row{
+max-width: 1140;
+margin: 0 auto;
+}
+
+.text-box{
+color: white;
+font-size: 100%;
+font-weight: 300;
+width: 1140px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+a{
+    border: transparent;
+}
+
+.btn{
+display: inline-block;
+padding: 10px 30px;
+font-weight: 300;
+text-decoration: none;
+border-radius: 200px;
+color:#fff;
 }
