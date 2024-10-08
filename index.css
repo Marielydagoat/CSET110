@@ -135,3 +135,101 @@ margin-bottom: 10px;
 
 }
 
+.gallery{
+margin-top: 30px;
+max-width: 15px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+margin: 0;
+overflow: hidden;
+background-color: black;
+}
+
+.img{
+ flex-wrap: wrap;
+height:300px;
+opacity: 0.7;
+width: 378px;
+margin: auto;
+transform: scale(1.15);
+transition: transform 0.5s, opacity 0.5s;
+}
+
+.img:hover{
+opacity: 1;
+transform: scale(1.00);
+}
+
+.phone-app{
+    max-width: 1140px;
+    align-items: end;
+    margin-left: 200px;
+}
+
+.phone{
+    display: flex;
+    width: 20%;
+    height: 40%;
+   margin-right: 10px;
+}
+
+.apps{
+    height: 50px;
+    width: auto;
+   
+}
+
+.apps:link, .apps:visited{
+   border: 0 ;
+}
+
+.apps img{
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.step{
+display: flex;
+justify-content: right;
+width: 550px;
+height: 50px;
+}
+
+.step-img{
+    display: flex;
+   align-items: center;
+  justify-content: center;
+}
+
+.step123{
+    margin-left: 50px;
+display: flex;
+flex-direction: column;
+}
+
+.icon-big2{
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    
+    --ionicon-stroke-width: 20px;
+}
+
+.cities{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin: 15px 0;
+/* height: 350px;
+width: 800px; */
+}
+
+.city-img{
+flex-wrap: wrap;
+width: 220px;
+height: 160px;
+margin: 15px;
+}
