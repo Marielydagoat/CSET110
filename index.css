@@ -56,11 +56,11 @@ left: 50%;
 transform: translate(-50%, -50%);
 }
 
-a:hover, a:active{
+.nav:hover, .nav:active{
     border-bottom: #cf6d17 1px solid;
 }
 
-a{
+.nav{
     color: #fff;
     border: transparent;
     text-decoration: none;
@@ -107,7 +107,7 @@ h2:after {
     background-color: #e67e22;
     content: " ";
     margin: auto;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .tittle{
@@ -218,7 +218,7 @@ flex-direction: column;
     --ionicon-stroke-width: 20px;
 }
 
-.cities{
+.cities, .contact-con{
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
@@ -227,9 +227,68 @@ margin: 15px 0;
 width: 800px; */
 }
 
-.city-img{
+.city-img, .contact{
 flex-wrap: wrap;
 width: 220px;
 height: 160px;
 margin: 15px;
+}
+
+.icon{
+    color: #e67e22;
+}
+
+.twit{
+    color: #e67e22;
+    text-decoration: underline;
+}
+
+.twit:hover, .twit:active{
+    color: black;
+    text-decoration: none;
+}
+
+.customers-con{
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.customers{
+width: 400px;
+
+}
+
+.body{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+url('lecture6_img/OmnifoodContents/back-customers.jpg');
+background-size: cover;
+height: 500px;
+background-attachment: fixed;
+text-align: center;
+color: #fff;
+}
+
+.custom-img{
+    width:50PX ;
+    height:50px ;
+    border-radius: 50%;
+}
+
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote::before{
+   content:"\201c";
+   font-size: 500%;
+   display: block;
+   position: absolute;
+   top: -5px;
+   left: -5px;
 }
