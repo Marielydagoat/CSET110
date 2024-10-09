@@ -367,3 +367,30 @@ display: inline;
 vertical-align: bottom;
 font-family: 'Open Sans', sans-serif;
 }
+
+footer{
+    background-color: #3c3a3a;
+    min-height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-info{
+    justify-content: space-around;
+    margin-top: 50px;
+    color: #777777;
+}
+
+.info{
+    text-decoration: none;
+     margin-left: 5px;
+     color: #777777;
+}
+
+.info:hover, .info:active{
+    color: white;
+}
+
+.copyright{
+    alig
+}
