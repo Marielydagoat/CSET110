@@ -4,6 +4,25 @@ padding: 0;
 box-sizing: border-box;
 }
 
+.lato-thin, h1, h2, h3{
+    font-family: "Lato", sans-serif;
+    font-weight: 10;
+    font-style: normal;
+  }
+  
+  .lato-light, h1, h2, h3{
+    font-family: "Lato", sans-serif;
+    font-weight: 10;
+    font-style: normal;
+  }
+  
+  .lato-regular, h1, h2, h3{
+    font-family: "Lato", sans-serif;
+    font-weight: 50;
+    font-style: normal;
+  }
+  
+
 .row{
     display: flex;
     justify-content: space-between;
@@ -291,4 +310,60 @@ blockquote::before{
    position: absolute;
    top: -5px;
    left: -5px;
+}
+
+.body2{
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.payment-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.payment{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    min-height: 400px;
+    min-width: 320px ;
+    border-bottom: 1px solid #e8e8e8;
+    box-shadow: 0 1px 1px #cac5c5;
+    font-size: 20px;
+    text-align: start;
+    background-color: #fff;
+    border-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.top{
+    margin-left: 10px;
+    border-bottom: 1px solid #e8e8e8;
+    background-color: #fcfcfc;
+    height: 150px;
+}
+
+.bottom{
+    margin-left: 10px;
+    border-bottom: 1px solid #e8e8e8;
+    background-color: #fff;
+    height: 200px;
+}
+
+.sign{
+    margin: 10px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+.top h1, .month {
+    color: #e67e22;
+display: inline;
+vertical-align: bottom;
+font-family: 'Open Sans', sans-serif;
 }
